@@ -1,0 +1,60 @@
+.header{
+    color: #2b2624;
+    background-color: rgb(255, 240, 217);
+    
+    
+    text-align:center;
+}
+
+.title{
+ 
+    color:rgb(252, 239, 215);
+    background-color: rgb(12, 9, 1);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    text-align:center;
+}
+
+.menu{
+    background-color:  rgb(202, 188, 172);
+    justify-content: space-between;
+    display:left;
+    border:  rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+a{
+    color:rgb(252, 252, 252);
+}
+a:visited{
+    color:rgb(5, 5, 4);
+}
+
+.game{
+    background-color: burlywood;
+    justify-content: grid;
+    border-image-width: 20px;
+    border-image:20px;
+}
+
+.game:hover p{
+    opacity:0.5;  
+  }
+  
+.game:hover img{
+      opacity:0.5;
+  }
+
+  .Code{
+      background-color:rgb(194, 187, 179) ;
+  }
